@@ -13,5 +13,8 @@
 # a = float(input('请输入数字：'))
 # b = float(input('请输入数字2：'))
 # print(a + b)
+'''
 a = input('请输入文章内容：')
 print('总输入字数：',len(a))
+'''
+print(False or not True)
