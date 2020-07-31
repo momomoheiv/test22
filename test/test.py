@@ -75,8 +75,56 @@ print(b)
 # del a['sex']
 # print(a)
 
-a = {}
-name = input('请输入学生名字：')
-score = input('请输入考试成绩：')
-a[name] = score
-print(a)
+# a = {}
+# name = input('请输入学生名字：')
+# score = input('请输入考试成绩：')
+# a[name] = score
+# print(a)
+
+# a = 10
+# b = 11
+# if a > b:
+#     print('a大于b')
+# else:
+#     print('a不大于b')
+
+# userinfo = {'username':'admin', 'password':'a1234567'}
+'''
+userinfo = {}
+username = input('请输入注册账号：')
+password = input('请输入注册密码：')
+if len(username) > 5:
+    if len(password) >8:
+        userinfo['username'] = username
+        userinfo['password'] = password
+        print('注册成功')
+    else:
+        print('密码必须大于8位！')
+else:
+    print('账号必须大于5位！')
+'''
+
+# for i in range(0,5):
+#     for j in range(0,5):
+#         print('h',end=' ')
+#     print()
+
+'''
+for i in [1,4,2,4]:
+    print(2)
+
+for i in range(1,10):
+    for j in range(1,i+1):
+        print(i,'*',j,'=',i*j,end = ' ')
+    print()
+'''
+
+# a = 1
+# while a < 10:
+#     print('今天ttt又被点名了')
+#     a += 1
+
+# for i in range(10):
+#     if i&1:
+#         continue
+#     print(i)
