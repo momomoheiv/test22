@@ -128,3 +128,55 @@ for i in range(1,10):
 #     if i&1:
 #         continue
 #     print(i)
+'''
+#作业第七题
+a = [{"tom":98,"king":56,"lili":75}]
+for i in a:
+    i
+
+A = []
+B = []
+for name in i:
+    fine = {}
+    fail = {}
+    
+    if  i.get(name) >= 60:
+        fine[name] = i.get(name)
+        A.append(fine)
+       
+    else:
+        fail[name] = i.get(name)
+        B.append(fail)
+        
+print('及格成绩：',A)
+print('不及格成绩：',B)
+       
+#作业第八题
+
+import time
+count = 0 
+while True:
+    count += 1
+    time.sleep(1)
+    if count < 5:
+        print('green...')
+    elif count >= 5 and count < 10:
+        print('red...')
+    else:
+        count = 0
+
+#作业第九题
+username = input()
+'''
+
+# a = '123:{}'.format(123)
+# print(a)
+# try:
+#     a = [1,2,3]
+#     print(a[9999])
+#     print('none')
+# except:
+#     print('yes')
+# print(2)   
+a = [1,2,3]
+print(a[9999])
