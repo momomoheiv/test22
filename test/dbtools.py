@@ -36,8 +36,9 @@ def commit(sql):
     db.commit()
     db.close()
 
-# sql = "update t_pymysql_account set password='12345678' where id=5"
+# sql = "update t_pymysql_account set password='12368' where id=5"
 # commit(sql)
+
 # sql是字符串
 # sql语句就是之前所学的sql
 # sql = "select * from t_pymysql_account"
