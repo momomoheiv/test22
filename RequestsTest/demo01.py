@@ -14,7 +14,8 @@ print(r.text)
 assert r.status_code == 200  #判断状态码
 assert r.json()['status'] == 200   #判断结果码 r是返回值  通过r.json()转换成dict格式
 #查询数据库：接口的作用来查询
-sql = 'select * from t_user where username = "{}"'.format('username')
+sql = 'select * from t_user where username = "{}"'.format(d['username'])
+print(query(sql))
 assert len(query(sql)) != 0
 print('测试通过')
 
