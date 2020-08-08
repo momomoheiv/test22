@@ -22,9 +22,6 @@ token = r.json()['data']['token']
 write_file('user_token.txt', token)
 user_token = read_file('user_token.txt')
 
-# uid = str(r.json()['data']['articleid']
-# write_file('user_articleid.txt', articleis)
-# user_articleid = read_file('user_articleid.txt')
 
 # u1 = 'http://192.144.148.91:2333/updateuserheadpic'
 # d1 = {"ximg" :"头像.jpg"}
@@ -40,7 +37,7 @@ h2 = {"Content-Type":"application/json", "token":user_token }
 res = requests.post(url=u2,json=d2,headers=h2)
 assert res.status_code == 200 
 assert res.json()['status'] == 200 
-print(res.text)
+# print(res.text)
 
 articleid = res.json()['data']['articleid']
 write_file('user_articleid.txt',str(articleid))
