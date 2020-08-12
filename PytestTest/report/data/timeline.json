@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-C58DSPMQ",
+    "children" : [ {
+      "name" : "13688-MainThread",
+      "children" : [ {
+        "name" : "test_01_login",
+        "uid" : "226b3faf8beabc",
+        "parentUid" : "b1e46579d9759b27ab702f934bf2be8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597158156014,
+          "stop" : 1597158156245,
+          "duration" : 231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01_xgtx",
+        "uid" : "4e4b57902158ffe4",
+        "parentUid" : "b1e46579d9759b27ab702f934bf2be8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597158156251,
+          "stop" : 1597158156479,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01_newarticle",
+        "uid" : "628170100ee7b9cc",
+        "parentUid" : "b1e46579d9759b27ab702f934bf2be8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597158156485,
+          "stop" : 1597158156730,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01_lbt",
+        "uid" : "6a16ba90c84f0796",
+        "parentUid" : "b1e46579d9759b27ab702f934bf2be8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597158155640,
+          "stop" : 1597158155898,
+          "duration" : 258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02_question",
+        "uid" : "d337b29061ff16b8",
+        "parentUid" : "b1e46579d9759b27ab702f934bf2be8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597158155918,
+          "stop" : 1597158156009,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1e46579d9759b27ab702f934bf2be8b"
+    } ],
+    "uid" : "ffe7e5933c83febdecd3f7157c8494ea"
+  } ]
+}

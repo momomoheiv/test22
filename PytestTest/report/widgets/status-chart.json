@@ -1,0 +1,51 @@
+[ {
+  "uid" : "226b3faf8beabc",
+  "name" : "test_01_login",
+  "time" : {
+    "start" : 1597158156014,
+    "stop" : 1597158156245,
+    "duration" : 231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e4b57902158ffe4",
+  "name" : "test_01_xgtx",
+  "time" : {
+    "start" : 1597158156251,
+    "stop" : 1597158156479,
+    "duration" : 228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "628170100ee7b9cc",
+  "name" : "test_01_newarticle",
+  "time" : {
+    "start" : 1597158156485,
+    "stop" : 1597158156730,
+    "duration" : 245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a16ba90c84f0796",
+  "name" : "test_01_lbt",
+  "time" : {
+    "start" : 1597158155640,
+    "stop" : 1597158155898,
+    "duration" : 258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d337b29061ff16b8",
+  "name" : "test_02_question",
+  "time" : {
+    "start" : 1597158155918,
+    "stop" : 1597158156009,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

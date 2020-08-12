@@ -45,4 +45,4 @@ user_articleid = read_file('user_articleid.txt')
 
 sql2 = 'select * from t_article where id="{}"'.format(user_articleid)
 assert len(query(sql2)) != 0
-print('发表成功！')
+print('发表成功！')  

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 11 23:02:36 CST 2020","Tue Aug 11 23:02:36 CST 2020","231","case","test_02_login","","","","test_01_login",""
+"passed","Tue Aug 11 23:02:36 CST 2020","Tue Aug 11 23:02:36 CST 2020","228","case","test_03_updateheadpic","","","","test_01_xgtx",""
+"passed","Tue Aug 11 23:02:36 CST 2020","Tue Aug 11 23:02:36 CST 2020","245","case","test_04_newarticle","","","","test_01_newarticle",""
+"passed","Tue Aug 11 23:02:35 CST 2020","Tue Aug 11 23:02:35 CST 2020","258","case","test_01_index","","","","test_01_lbt",""
+"passed","Tue Aug 11 23:02:35 CST 2020","Tue Aug 11 23:02:36 CST 2020","91","case","test_01_index","","","","test_02_question",""
