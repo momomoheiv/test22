@@ -1,12 +1,12 @@
 {
-  "uid" : "6a16ba90c84f0796",
-  "name" : "test_01_lbt",
-  "fullName" : "case.test_01_index#test_01_lbt",
-  "historyId" : "c0e4f0e88d48913e82465b9de61ec7a3",
+  "uid" : "aa62047acf395e0c",
+  "name" : "test_02_questionlist",
+  "fullName" : "case.test_01_index#test_02_questionlist",
+  "historyId" : "2c5a7b9102cdf5712bf8f4401321f147",
   "time" : {
-    "start" : 1597158155640,
-    "stop" : 1597158155898,
-    "duration" : 258
+    "start" : 1597251620750,
+    "stop" : 1597251620842,
+    "duration" : 92
   },
   "status" : "passed",
   "flaky" : false,
@@ -24,7 +24,7 @@
     "value" : "LAPTOP-C58DSPMQ"
   }, {
     "name" : "thread",
-    "value" : "13688-MainThread"
+    "value" : "5292-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -44,10 +44,26 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "83134f8cea35c2a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597249155215,
+        "stop" : 1597249155309,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "d36a1484b1f37db2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597230254649,
+        "stop" : 1597230254744,
+        "duration" : 95
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6a16ba90c84f0796.json",
+  "source" : "aa62047acf395e0c.json",
   "parameterValues" : [ ]
 }

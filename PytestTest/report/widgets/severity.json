@@ -1,50 +1,200 @@
 [ {
-  "uid" : "628170100ee7b9cc",
-  "name" : "test_01_newarticle",
+  "uid" : "dc52ae49e655e364",
+  "name" : "test_02_updatequestion",
   "time" : {
-    "start" : 1597158156485,
-    "stop" : 1597158156730,
-    "duration" : 245
+    "start" : 1597251623630,
+    "stop" : 1597251623894,
+    "duration" : 264
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6a16ba90c84f0796",
+  "uid" : "24ccb40cd0a9b94c",
   "name" : "test_01_lbt",
   "time" : {
-    "start" : 1597158155640,
-    "stop" : 1597158155898,
-    "duration" : 258
+    "start" : 1597251620636,
+    "stop" : 1597251620744,
+    "duration" : 108
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4e4b57902158ffe4",
-  "name" : "test_01_xgtx",
+  "uid" : "1a39a62a1d42fea7",
+  "name" : "test_08_article",
   "time" : {
-    "start" : 1597158156251,
-    "stop" : 1597158156479,
-    "duration" : 228
+    "start" : 1597251621463,
+    "stop" : 1597251621542,
+    "duration" : 79
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "226b3faf8beabc",
-  "name" : "test_01_login",
+  "uid" : "507c2dfc9295316a",
+  "name" : "test_03_version",
   "time" : {
-    "start" : 1597158156014,
-    "stop" : 1597158156245,
-    "duration" : 231
+    "start" : 1597251620845,
+    "stop" : 1597251620913,
+    "duration" : 68
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d337b29061ff16b8",
+  "uid" : "e127ed530bc0b0b",
+  "name" : "test_10_inspiere",
+  "time" : {
+    "start" : 1597251621646,
+    "stop" : 1597251621739,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63ea42ab7c4e7880",
   "name" : "test_02_question",
   "time" : {
     "start" : 1597158155918,
     "stop" : 1597158156009,
     "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "418625a5b63adab0",
+  "name" : "test_01_xgtx",
+  "time" : {
+    "start" : 1597251621972,
+    "stop" : 1597251622224,
+    "duration" : 252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b755412a7ab907f",
+  "name" : "test_05_course",
+  "time" : {
+    "start" : 1597251621114,
+    "stop" : 1597251621189,
+    "duration" : 75
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec21db3f515cb4d5",
+  "name" : "test_01_mb",
+  "time" : {
+    "start" : 1597251623085,
+    "stop" : 1597251623378,
+    "duration" : 293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51a3e80a3465ef29",
+  "name" : "test_09_inspirerlist",
+  "time" : {
+    "start" : 1597251621548,
+    "stop" : 1597251621642,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b630a33f71ea8d2",
+  "name" : "test_01_login",
+  "time" : {
+    "start" : 1597251621746,
+    "stop" : 1597251621965,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ac9aa08f9b0e8bc",
+  "name" : "test_06_question",
+  "time" : {
+    "start" : 1597251621278,
+    "stop" : 1597251621355,
+    "duration" : 77
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa62047acf395e0c",
+  "name" : "test_02_questionlist",
+  "time" : {
+    "start" : 1597251620750,
+    "stop" : 1597251620842,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a03230cde676bcf",
+  "name" : "test_04_courselist",
+  "time" : {
+    "start" : 1597251620923,
+    "stop" : 1597251621009,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b119d7abb83ce859",
+  "name" : "test_02_updatearticle",
+  "time" : {
+    "start" : 1597251622543,
+    "stop" : 1597251622836,
+    "duration" : 293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f081648ca0492570",
+  "name" : "test_03_deletequestion",
+  "time" : {
+    "start" : 1597251623898,
+    "stop" : 1597251624120,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d587764bc0997da",
+  "name" : "test_01_newquestion",
+  "time" : {
+    "start" : 1597251623384,
+    "stop" : 1597251623625,
+    "duration" : 241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35cba6e553cfe89c",
+  "name" : "test_01_newarticle",
+  "time" : {
+    "start" : 1597251622230,
+    "stop" : 1597251622540,
+    "duration" : 310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45ea4742b23d4cbf",
+  "name" : "test_07_articlelist",
+  "time" : {
+    "start" : 1597251621367,
+    "stop" : 1597251621459,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a600fa67be9544a7",
+  "name" : "test_03_deletearticle",
+  "time" : {
+    "start" : 1597251622845,
+    "stop" : 1597251623080,
+    "duration" : 235
   },
   "status" : "passed",
   "severity" : "normal"

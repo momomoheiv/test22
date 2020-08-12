@@ -1,0 +1,77 @@
+{
+  "uid" : "8ac9aa08f9b0e8bc",
+  "name" : "test_06_question",
+  "fullName" : "case.test_01_index#test_06_question",
+  "historyId" : "8450572ba6a475b399f2fc77ab327002",
+  "time" : {
+    "start" : 1597251621278,
+    "stop" : 1597251621355,
+    "duration" : 77
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 500 == 200.0\n +  where 500 = <Response [500]>.status_code",
+  "statusTrace" : "def test_06_question():\n        r = read_excel('data\\\\测谈网接口测试用例.xlsx','Sheet1')\n        u = r[10][2]\n        res = requests.get(u)\n>       assert res.status_code == r[10][6]\nE       assert 500 == 200.0\nE        +  where 500 = <Response [500]>.status_code\n\ncase\\test_01_index.py:48: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_index"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-C58DSPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "5292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_01_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8f5219e0974e79f8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 500 == 200.0\n +  where 500 = <Response [500]>.status_code",
+      "time" : {
+        "start" : 1597249155823,
+        "stop" : 1597249155904,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "770f0d2a3cb4617b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 500 == 200.0\n +  where 500 = <Response [500]>.status_code",
+      "time" : {
+        "start" : 1597230255172,
+        "stop" : 1597230255246,
+        "duration" : 74
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8ac9aa08f9b0e8bc.json",
+  "parameterValues" : [ ]
+}

@@ -1,12 +1,12 @@
 {
-  "uid" : "628170100ee7b9cc",
-  "name" : "test_01_newarticle",
-  "fullName" : "case.test_04_newarticle#test_01_newarticle",
-  "historyId" : "a39ed182c6e489659430515dd9f5b719",
+  "uid" : "9abe23f7f8d843aa",
+  "name" : "test_03_version",
+  "fullName" : "case.test_01_index#test_03_version",
+  "historyId" : "469aa03c5daad8c3cd7582130c3a4cd6",
   "time" : {
-    "start" : 1597158156485,
-    "stop" : 1597158156730,
-    "duration" : 245
+    "start" : 1597249155313,
+    "stop" : 1597249155431,
+    "duration" : 118
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,13 +18,13 @@
     "value" : "case"
   }, {
     "name" : "suite",
-    "value" : "test_04_newarticle"
+    "value" : "test_01_index"
   }, {
     "name" : "host",
     "value" : "LAPTOP-C58DSPMQ"
   }, {
     "name" : "thread",
-    "value" : "13688-MainThread"
+    "value" : "232-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -33,21 +33,19 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "case.test_04_newarticle"
+    "value" : "case.test_01_index"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "628170100ee7b9cc.json",
+  "source" : "9abe23f7f8d843aa.json",
   "parameterValues" : [ ]
 }

@@ -1,0 +1,77 @@
+{
+  "uid" : "8b755412a7ab907f",
+  "name" : "test_05_course",
+  "fullName" : "case.test_01_index#test_05_course",
+  "historyId" : "4da3b39e9586c112586afa939aa2b36f",
+  "time" : {
+    "start" : 1597251621114,
+    "stop" : 1597251621189,
+    "duration" : 75
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 401 == 200.0",
+  "statusTrace" : "def test_05_course():\n        r = read_excel('data\\\\测谈网接口测试用例.xlsx','Sheet1')\n        u = r[9][2]\n        res = requests.get(u)\n        assert res.status_code == r[9][6]\n>       assert res.json()['status'] == r[9][7]\nE       assert 401 == 200.0\n\ncase\\test_01_index.py:42: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_index"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-C58DSPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "5292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_01_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f8a4baf14d44da98",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 200.0",
+      "time" : {
+        "start" : 1597249155539,
+        "stop" : 1597249155608,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "84015b751db859e3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 200.0",
+      "time" : {
+        "start" : 1597230254910,
+        "stop" : 1597230255006,
+        "duration" : 96
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8b755412a7ab907f.json",
+  "parameterValues" : [ ]
+}

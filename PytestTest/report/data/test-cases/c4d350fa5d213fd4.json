@@ -1,0 +1,51 @@
+{
+  "uid" : "c4d350fa5d213fd4",
+  "name" : "test_01_mb",
+  "fullName" : "case.test_05_usersertmb#test_01_mb",
+  "historyId" : "15ed399f042878f8c5d4f692f9f9532a",
+  "time" : {
+    "start" : 1597230257005,
+    "stop" : 1597230257095,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_usersertmb"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-C58DSPMQ"
+  }, {
+    "name" : "thread",
+    "value" : "16660-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_05_usersertmb"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4d350fa5d213fd4.json",
+  "parameterValues" : [ ]
+}

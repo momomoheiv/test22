@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 401 == 200.0",
+      "children" : [ {
+        "name" : "test_05_course",
+        "uid" : "8b755412a7ab907f",
+        "parentUid" : "5b135573308f2442894fadd7666c73f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597251621114,
+          "stop" : 1597251621189,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b135573308f2442894fadd7666c73f5"
+    }, {
+      "name" : "AssertionError: assert 500 == 200.0\n +  where 500 = <Response [500]>.status_code",
+      "children" : [ {
+        "name" : "test_06_question",
+        "uid" : "8ac9aa08f9b0e8bc",
+        "parentUid" : "ab504cc18093b5b0800090985e4d9ddd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597251621278,
+          "stop" : 1597251621355,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab504cc18093b5b0800090985e4d9ddd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
