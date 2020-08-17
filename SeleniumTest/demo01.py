@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path='Chromedriver.exe')
+driver = webdriver.Chrome(executable_path='chromedriver.exe')
 
 driver.get('http://81.68.125.221:9000/zentao')
 
