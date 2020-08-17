@@ -17,4 +17,4 @@ driver.find_element_by_id('emailnum').send_keys('59486623@qq.com')
 driver.find_element_by_id('userRegist').click()
 
 time.sleep(5)
-driver.quit()
+driver.quit() 
